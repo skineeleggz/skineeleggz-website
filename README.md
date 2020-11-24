@@ -1,4 +1,6 @@
-# skineeleggz
+# SkineeLeggz
+
+This repo is public to help anyone starting off with Nuxt.js. You can see exactly how the code is currently working to generate the SkineeLeggz website at https://skineeleggz.com
 
 ## Build Setup
 
