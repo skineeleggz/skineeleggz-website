@@ -1,0 +1,14 @@
+$navbar-height: 56px;
+
+body {
+  background-color: $body-background-color;
+}
+
+main {
+  margin-top: $navbar-height;
+  padding: 2rem 0;
+}
+
+footer {
+  text-align: center;
+}
