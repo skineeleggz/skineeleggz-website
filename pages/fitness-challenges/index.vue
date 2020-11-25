@@ -1,6 +1,7 @@
 <template>
-  <div class="container">
-    <h2>Fitness Challenges</h2>
-    <p>Will fill this up soon...</p>
-  </div>
+  <section>
+    <hero title="Fitness Challenges">
+      <p class="lead">Challenging myself...</p>
+    </hero>
+  </section>
 </template>
