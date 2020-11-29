@@ -2,7 +2,7 @@ import pkg from './package'
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'static',
+  // target: 'static',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -25,6 +25,7 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     '~/plugins/main.js',
+    '~/plugins/gtag.js',
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -32,7 +33,6 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
-    '@nuxtjs/google-analytics',
     '@nuxtjs/dotenv',
   ],
 
@@ -49,10 +49,6 @@ export default {
 
   styleResources: {
     scss: '~/assets/scss/style-resources.scss',
-  },
-
-  googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID,
   },
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)

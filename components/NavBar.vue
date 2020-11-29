@@ -20,8 +20,14 @@
 
 <style lang="scss">
 .navbar {
-  transition: all 0.4s ease;
+  transition: all 0.25s ease;
   padding: 1rem;
+
+  .navbar-nav {
+    .nav-link {
+      color: $white;
+    }
+  }
 
   body.scrolled & {
     background: $navbar-scrolled-bg-color;

@@ -9,7 +9,7 @@ This repo is public to help anyone starting off with Nuxt.js. You can see exactl
 - Once complete, should see `node-sass`, `sass-loader` and `@nuxtjs/style-resources` in `package.json`
 - Also now have the benefit of being able to write SASS code within the `<style>` tags
 
-
+Add something about Analytics and vue-gtag
 
 ## Build Setup
 
