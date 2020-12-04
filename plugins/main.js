@@ -1,7 +1,7 @@
 if (process.client) {
   
   function scrollCheck() {
-    let scrollPoint = 100;
+    let scrollPoint = 60;
     let bodyElement = document.querySelector('body');
 
     if (document.body.scrollTop > scrollPoint || document.documentElement.scrollTop > scrollPoint) {

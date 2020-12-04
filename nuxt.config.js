@@ -13,7 +13,15 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { 
+        rel: 'icon', 
+        type: 'image/x-icon', 
+        href: '/favicon.ico'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Roboto&display=swap'
+      },
     ]
   },
 
@@ -34,6 +42,7 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     '@nuxtjs/dotenv',
+    '@nuxtjs/date-fns',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)

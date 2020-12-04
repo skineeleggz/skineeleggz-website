@@ -22,6 +22,7 @@
     "vue-gtag": "^1.10.0"
   },
   "devDependencies": {
+    "@nuxtjs/date-fns": "^1.4.3",
     "@nuxtjs/dotenv": "^1.4.1"
   }
 }
