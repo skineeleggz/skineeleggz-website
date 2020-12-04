@@ -18,7 +18,7 @@
     },
     async asyncData({ $content, params, error }) {
 
-      const blogs = await $content('blog')
+      const blogs = await $content('blog', { deep: true })
         .sortBy('createdAt', 'desc')
         .fetch()
         .catch(err => {

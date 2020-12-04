@@ -6,7 +6,7 @@
       :key="item.slug"
     >
       <h3>
-        <n-link :to="`/blog/${item.slug}`">{{ item.title }}</n-link>
+        <n-link :to="item.path">{{ item.title }}</n-link>
       </h3>
     
       <content-item
