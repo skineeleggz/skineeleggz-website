@@ -69,6 +69,7 @@ export default {
     component: 'FaIcon',
     suffix: false,
     icons: {
+      solid: ['faBars'],
       brands: ['faTwitter', 'faFacebookF', 'faYoutube', 'faGithub'],
     }
   },

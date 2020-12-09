@@ -3,7 +3,7 @@
     <hero :title="blog.title" size="mini">
       <p>Description goes here</p>
     </hero>
-    <page-contents>
+    <page-contents min-spacing>
       <h2><n-link to="/blog">Blog</n-link> &raquo; {{ blog.title }}</h2>
       <content-item
         :item="blog"
