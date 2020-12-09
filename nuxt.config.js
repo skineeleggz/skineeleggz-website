@@ -19,8 +19,12 @@ export default {
         href: '/favicon.ico'
       },
       {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com'
+      },
+      {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Roboto&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap'
       },
     ]
   },
@@ -43,6 +47,7 @@ export default {
   buildModules: [
     '@nuxtjs/dotenv',
     '@nuxtjs/date-fns',
+    '@nuxtjs/fontawesome',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -58,6 +63,14 @@ export default {
 
   styleResources: {
     scss: '~/assets/scss/style-resources.scss',
+  },
+
+  fontawesome: {
+    component: 'FaIcon',
+    suffix: false,
+    icons: {
+      brands: ['faTwitter', 'faFacebookF', 'faYoutube', 'faGithub'],
+    }
   },
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
