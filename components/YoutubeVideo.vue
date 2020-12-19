@@ -1,10 +1,12 @@
 <template>
-  <b-embed
-    :src="`https://www.youtube.com/embed/${youtubeId}?rel=0`"
-    type="iframe"
-    aspect="16by9"
-    allowfullscreen
-  ></b-embed>
+  <div class="youtube-video">
+    <b-embed
+      :src="`https://www.youtube.com/embed/${youtubeId}?rel=0`"
+      type="iframe"
+      aspect="16by9"
+      allowfullscreen
+    ></b-embed>
+  </div>
 </template>
 
 <script>
