@@ -8,3 +8,13 @@
     </page-contents>
   </section>
 </template>
+
+<script>
+  export default {
+    head() {
+      return {
+        title: 'Fitness Challenges',
+      }
+    }
+  }
+</script>

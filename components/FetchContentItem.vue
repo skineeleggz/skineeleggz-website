@@ -9,6 +9,11 @@
       type: String,
       slug: String,
     },
+    head( ) {
+      return {
+        title: this.item.title,
+      }
+    },
     data() {
       return {
         item: {}

@@ -8,3 +8,13 @@
     </page-contents>
   </section>
 </template>
+
+<script>
+  export default {
+    head() {
+      return {
+        title: 'Spokes, Jokes & Anecdotes',
+      }
+    }
+  }
+</script>
