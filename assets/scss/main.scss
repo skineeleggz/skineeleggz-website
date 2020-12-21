@@ -31,8 +31,10 @@ main {
 
 .content-list-heading {
   padding-bottom: 1rem;
-  margin-bottom: 2rem;
-  border-bottom: 1px solid $light-shade;
+  @include md-up {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid $light-shade;
+  }
 }
 
 footer {

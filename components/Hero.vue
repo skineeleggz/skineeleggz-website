@@ -50,7 +50,7 @@
   }
 
   p {
-    font-size: 26px;
+    font-size: 24px;
     &:last-of-type {
       margin-bottom: 0;
     }

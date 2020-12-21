@@ -1,7 +1,7 @@
 <template>
   <section>
-    <hero title="SkineeLeggz Here!" size="mini">
-      <p class="lead">I'm still getting my website up to speed. Check back again soon!</p>
+    <hero title="Hello :)" size="mini">
+      <p>I'm still getting my website up to speed. Check back again soon!</p>
     </hero>
     <page-contents min-spacing>
       <b-row>
