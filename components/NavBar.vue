@@ -10,6 +10,7 @@
       <b-collapse id="navbar-collapse" is-nav>
         <b-navbar-nav>
           <b-nav-item-dropdown text="Videos" right>
+            <b-dropdown-item to="/videos/humor">Humor</b-dropdown-item>
             <b-dropdown-item to="/videos/fitness-challenges">Fitness Challenges</b-dropdown-item>
             <b-dropdown-item to="/videos/spokes-jokes-and-anecdotes">Spokes, Jokes & Anecdotes</b-dropdown-item>
             <b-dropdown-item to="/videos/sights-and-sounds">Sights & Sounds</b-dropdown-item>

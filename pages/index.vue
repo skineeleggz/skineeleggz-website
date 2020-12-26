@@ -8,7 +8,7 @@
         <b-col md="7">
           <h2 class="content-list-heading">Latest Video</h2>
           <youtube-video :youtube-id="posts[0].videoId"></youtube-video>
-          <p class="mt-2"><n-link to="/videos/sights-and-sounds">Click here</n-link> for more Sights & Sounds episodes.</p>
+          <p class="mt-2"><n-link to="/videos/sights-and-sounds">Click here</n-link> for the Sights & Sounds series.</p>
         </b-col>
         <b-col md="4" offset-md="1">
           <a class="twitter-timeline" data-theme="light" href="https://twitter.com/SkineeLeggz?ref_src=twsrc%5Etfw">Tweets by SkineeLeggz</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
