@@ -10,7 +10,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: pkg.description },
+      { name: 'keywords', content: 'skinny, skinee, skinne, skinney, leg, legs, legz, leggs, leggz, skineeleggz, skinnylegs, pandemic, 2020, 2021, covid, covid-19, health, mental, physical, motivation, creative, creativity, youtube, cabin fever, virus, spokes, jokes, funny, anecdotes, sights, sounds, music' },
     ],
     link: [
       { 

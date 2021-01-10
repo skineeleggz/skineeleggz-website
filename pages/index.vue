@@ -1,7 +1,7 @@
 <template>
   <section>
-    <hero title="Hello :)" size="mini">
-      <p>I'm still getting my website up to speed. Check back again soon!</p>
+    <hero title="Hello there.">
+      <p>I'm a programmer &ndash; you know, 1's and 0's. The 2020/2021 Covid-19 pandemic has jump-started my frontal cortex after years of remaining dormant. Creative juices are flowing once again. Join me on my <a href="https://youtube.com/skineeleggz" target="_blank">YouTube</a> journey as I focus on mental & physical health, while keeping things as light as possible with humor tucked in between. Please keep in mind that I'm a jack of all trades, master of none... so you might find my mind wandering in some of my video uploads.</p>
     </hero>
     <page-contents min-spacing>
       <b-row>
