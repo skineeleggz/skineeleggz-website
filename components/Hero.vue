@@ -16,7 +16,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  max-height: 600px;
+  
   padding: $navbar-default-height 0 2rem;
 
   &.size-mini {
@@ -29,6 +29,7 @@
 
   @include md-up() {
     text-align: left;
+    max-height: 600px;
   }
 
   .container {
@@ -50,9 +51,17 @@
   }
 
   p {
-    font-size: 24px;
+    font-size: 18px;
     &:last-of-type {
       margin-bottom: 0;
+    }
+
+    @include lg-up() {
+      font-size: 20px;
+    }
+
+    @include xl-up() {
+      font-size: 24px;
     }
   }
 

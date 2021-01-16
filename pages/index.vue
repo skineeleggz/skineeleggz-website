@@ -1,7 +1,14 @@
 <template>
   <section>
-    <hero title="Hello there.">
-      <p>I'm a programmer – you know, 1's and 0's. The 2020/2021 Covid-19 pandemic has jump-started my frontal cortex after years of remaining dormant. Creative juices are flowing once again. Join me on my <a href="https://youtube.com/skineeleggz" target="_blank">YouTube</a> journey as I focus on mental & physical health, while keeping things as light as possible with humor tucked in between. Please keep in mind that I'm a jack of all trades, master of none... so you might find my mind wandering in some of my video uploads.</p>
+    <hero title="Hello there." class="home-hero">
+      <b-row align-v="center">
+        <b-col md="8">
+          <p>I'm a programmer – you know, 1's and 0's. The 2020/2021 Covid-19 pandemic has jump-started my frontal cortex after years of remaining dormant. Creative juices are flowing once again. Join me on my <a href="https://youtube.com/skineeleggz" target="_blank">YouTube</a> journey as I focus on mental & physical health, while keeping things as light as possible with humor tucked in between. Please keep in mind that I'm a jack of all trades, master of none... so you might find my mind wandering in some of my video uploads.</p>
+        </b-col>
+        <b-col md="4">
+          <img src="~/assets/img/logo_with_text.png" alt="SkineeLeggz logo with text">
+        </b-col>
+      </b-row>
     </hero>
     <page-contents min-spacing>
       <b-row>
@@ -17,6 +24,20 @@
     </page-contents>
   </section>
 </template>
+
+<style lang="scss">
+  .home-hero {
+    img {
+      max-width: 320px;
+      margin-top: 2rem;
+
+      @include md-up {
+        margin: 0;
+        max-width: 100%;
+      }
+    }
+  }
+</style>
 
 <script>
   export default {
