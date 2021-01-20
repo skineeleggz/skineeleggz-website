@@ -13,13 +13,13 @@
     <page-contents min-spacing>
       <b-row>
         <b-col md="7">
-          <h2 class="content-list-heading">Latest Video</h2>
+          <h2 class="content-list-heading">Latest YouTube</h2>
           <youtube-video :youtube-id="posts[0].videoId"></youtube-video>
           <p class="mt-2"><n-link to="/videos/sights-and-sounds">Click here</n-link> for the Sights & Sounds series.</p>
         </b-col>
         <b-col md="4" offset-md="1">
-          <h2 class="content-list-heading">Latest Tiktok</h2>
-          <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@skineeleggz/video/6919264822504787205" data-video-id="6919264822504787205" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@skineeleggz" href="https://www.tiktok.com/@skineeleggz">@skineeleggz</a> <p>I win worst dad jokes award! <a title="dadjokes" target="_blank" href="https://www.tiktok.com/tag/dadjokes">##dadjokes</a></p> <a target="_blank" title="♬ original sound - SkineeLeggz" href="https://www.tiktok.com/music/original-sound-6919264828699757317">♬ original sound - SkineeLeggz</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+          <h2 class="content-list-heading">Latest TikTok</h2>
+          <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@skineeleggz/video/6919640606927113477" data-video-id="6919640606927113477" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@skineeleggz" href="https://www.tiktok.com/@skineeleggz">@skineeleggz</a> <p>SkineeLeggz Comedy - Breakups (Part 1) <a title="comedy" target="_blank" href="https://www.tiktok.com/tag/comedy">##comedy</a> <a title="standup" target="_blank" href="https://www.tiktok.com/tag/standup">##standup</a> <a title="standupcomedy" target="_blank" href="https://www.tiktok.com/tag/standupcomedy">##standupcomedy</a> <a title="breakup" target="_blank" href="https://www.tiktok.com/tag/breakup">##breakup</a></p> <a target="_blank" title="♬ original sound - SkineeLeggz" href="https://www.tiktok.com/music/original-sound-6919640593882794758">♬ original sound - SkineeLeggz</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
         </b-col>
       </b-row>
     </page-contents>
