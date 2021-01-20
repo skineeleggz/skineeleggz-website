@@ -18,13 +18,16 @@
           <b-nav-item to="/dev">Dev</b-nav-item>      
           <b-nav-item to="/blog">Blog</b-nav-item>
           <b-nav-text class="social-links">
-            <a href="https://www.youtube.com/skineeleggz" target="_blank">
+            <a href="https://youtube.com/skineeleggz" target="_blank">
               <fa-icon :icon="['fab', 'youtube']" />
+            </a>
+            <a href="https://tiktok.com/@skineeleggz" target="_blank">
+              <fa-icon :icon="['fab', 'tiktok']" />
             </a>
             <a href="https://twitter.com/skineeleggz" target="_blank">
               <fa-icon :icon="['fab', 'twitter']" />
             </a>
-            <a href="https://www.facebook.com/skineeleggz" target="_blank">
+            <a href="https://facebook.com/skineeleggz" target="_blank">
               <fa-icon :icon="['fab', 'facebook-f']" />
             </a>
             <a href="https://github.com/skineeleggz" target="_blank">

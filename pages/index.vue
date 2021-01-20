@@ -18,7 +18,8 @@
           <p class="mt-2"><n-link to="/videos/sights-and-sounds">Click here</n-link> for the Sights & Sounds series.</p>
         </b-col>
         <b-col md="4" offset-md="1">
-          <a class="twitter-timeline" data-theme="light" href="https://twitter.com/SkineeLeggz?ref_src=twsrc%5Etfw">Tweets by SkineeLeggz</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <h2 class="content-list-heading">Latest Tiktok</h2>
+          <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@skineeleggz/video/6919264822504787205" data-video-id="6919264822504787205" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@skineeleggz" href="https://www.tiktok.com/@skineeleggz">@skineeleggz</a> <p>I win worst dad jokes award! <a title="dadjokes" target="_blank" href="https://www.tiktok.com/tag/dadjokes">##dadjokes</a></p> <a target="_blank" title="♬ original sound - SkineeLeggz" href="https://www.tiktok.com/music/original-sound-6919264828699757317">♬ original sound - SkineeLeggz</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
         </b-col>
       </b-row>
     </page-contents>

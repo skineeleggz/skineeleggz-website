@@ -104,7 +104,7 @@ export default {
     suffix: false,
     icons: {
       solid: ['faBars'],
-      brands: ['faTwitter', 'faFacebookF', 'faYoutube', 'faGithub'],
+      brands: ['faTwitter', 'faFacebookF', 'faTiktok', 'faYoutube', 'faGithub'],
     }
   },
 
