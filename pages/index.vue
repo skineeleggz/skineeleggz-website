@@ -16,6 +16,8 @@
           <h2 class="content-list-heading">Latest YouTube</h2>
           <youtube-video :youtube-id="posts[0].videoId"></youtube-video>
           <p class="mt-2"><n-link to="/videos/sights-and-sounds">Click here</n-link> for the Sights & Sounds series.</p>
+          <h3 class="mt-5">Some <em>Really</em> Random Stuff</h3>
+          <p><a href="https://emulac.com">Emulac.com</a></p>
         </b-col>
         <b-col md="4" offset-md="1">
           <h2 class="content-list-heading">Latest TikTok</h2>

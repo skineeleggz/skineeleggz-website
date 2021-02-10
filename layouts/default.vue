@@ -8,7 +8,7 @@
     </main>
     <footer>
       <div class="container">
-        <p>Emanating from Toronto, Canada – all tucked away down there!</p>
+        <p>Emanating from Toronto, Canada (all tucked away down there)</p>
         <p>© skineeleggz.com</p>
       </div>
     </footer>
